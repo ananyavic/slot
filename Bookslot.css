@@ -1,0 +1,65 @@
+.book-slot-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .slot-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .slot {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .slot.available {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .slot.occupied {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .slot.selected {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
